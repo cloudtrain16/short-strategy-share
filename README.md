@@ -20,7 +20,10 @@ python3 src/run_short_regime_strict.py --help
 python3 src/run_short_regime_gp.py --help
 python3 src/build_short_portfolio_pack.py --help
 python3 src/shadow_short_runner.py --help
+python3 src/file_drop_ui.py --host 127.0.0.1 --port 8765
 ```
+
+Then open `http://127.0.0.1:8765` and drag files into the page.
 
 ## Safety
 
