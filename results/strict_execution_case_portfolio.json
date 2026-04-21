@@ -1,0 +1,26 @@
+[
+  {
+    "case": "limit_entry_market_exit",
+    "symbols": 6,
+    "avg_ret_pct": 9.14,
+    "avg_dd_pct": 5.17,
+    "avg_entry_fill_pct": 100.0,
+    "positive_symbols": 4
+  },
+  {
+    "case": "limit_only_no_fallback",
+    "symbols": 6,
+    "avg_ret_pct": -7.45,
+    "avg_dd_pct": 11.86,
+    "avg_entry_fill_pct": 70.46,
+    "positive_symbols": 2
+  },
+  {
+    "case": "market_only",
+    "symbols": 6,
+    "avg_ret_pct": 8.41,
+    "avg_dd_pct": 6.34,
+    "avg_entry_fill_pct": 100.0,
+    "positive_symbols": 4
+  }
+]

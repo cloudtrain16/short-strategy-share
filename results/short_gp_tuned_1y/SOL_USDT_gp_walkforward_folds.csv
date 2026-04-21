@@ -1,0 +1,7 @@
+fold,train_start_ts,train_end_ts,test_start_ts,test_end_ts,best_expr,train_score,train_return_pct,test_score,test_return_pct,test_max_dd_pct,test_trades,test_win_rate,test_entry_fill_rate,test_cap_reject_entries,oos_equity_after_fold
+0,1745222400000,1755288000000,1755302400000,1758744000000,dist_ma20_x50,-10.5,0.0,-10.5,0.0,0.0,0,0.0,0.0,0,1.0
+1,1748678400000,1758744000000,1758758400000,1762200000000,((((trend_gap_x30 sub dist_ma52_x50) min 2.00) min (tanh(ret1_x50) div (-0.50 div -0.50))) mul -1.00),-10.5,0.0,-4.46,5.35,7.76,2,50.0,100.0,0,1.053473
+2,1752134400000,1762200000000,1762214400000,1765656000000,((abs((1.00 sub ((abs((1.00 sub (rsi_n_x4 add dist_ma7_x50))) div dist_ma7_x50) mul (rsi_n_x4 add dist_ma7_x50)))) div dist_ma7_x50) mul (rsi_n_x4 add dist_ma7_x50)),9.23,10.63,-1.19,9.48,5.19,5,100.0,55.56,4,1.153312
+3,1755590400000,1765656000000,1765670400000,1769112000000,((dist_ma52_x50 div (((ret1_x50 min -0.50) sub 1.00) sub (trend_gap_x30 sub dist_ma52_x50))) max (trend_gap_x30 sub (2.00 min (-0.50 sub -1.00)))),14.3,17.6,-0.17,0.33,0.0,1,100.0,100.0,0,1.157064
+4,1759046400000,1769112000000,1769126400000,1772568000000,neg((neg(ret1_x50) min neg(((rsi_n_x4 max dist_ma52_x50) sub neg((-1.00 sub ((((ret1_x50 div rsi_n_x4) min (rsi_n_x4 sub dist_ma7_x50)) add tanh(abs(-2.00))) div (-1.00 mul (abs(1.00) mul (dist_ma7_x50 sub dist_ma7_x50)))))))))),15.11,22.99,-12.19,2.57,4.24,1,100.0,8.33,11,1.18675
+5,1762502400000,1772568000000,1772582400000,1776024000000,tanh(tanh(vol20_x20)),7.67,17.23,-10.5,0.0,0.0,0,0.0,0.0,0,1.18675

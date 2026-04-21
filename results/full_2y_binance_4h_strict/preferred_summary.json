@@ -1,0 +1,68 @@
+{
+  "symbols": 6,
+  "avg_preferred_return_pct": 268.19,
+  "avg_preferred_max_dd_pct": 0.63,
+  "avg_preferred_entry_fill_pct": 100.0,
+  "rows": [
+    {
+      "symbol": "UNI-USDT",
+      "bars": 4380,
+      "start_iso_utc": "2024-04-21T08:00:00+00:00",
+      "end_iso_utc": "2026-04-21T04:00:00+00:00",
+      "preferred_method": "grid",
+      "preferred_return_pct": 365.45,
+      "preferred_max_dd_pct": 0.83,
+      "preferred_entry_fill_pct": 100.0
+    },
+    {
+      "symbol": "ETH-USDT",
+      "bars": 4380,
+      "start_iso_utc": "2024-04-21T08:00:00+00:00",
+      "end_iso_utc": "2026-04-21T04:00:00+00:00",
+      "preferred_method": "ga",
+      "preferred_return_pct": 373.94,
+      "preferred_max_dd_pct": 0.0,
+      "preferred_entry_fill_pct": 100.0
+    },
+    {
+      "symbol": "STRK-USDT",
+      "bars": 4380,
+      "start_iso_utc": "2024-04-21T08:00:00+00:00",
+      "end_iso_utc": "2026-04-21T04:00:00+00:00",
+      "preferred_method": "grid",
+      "preferred_return_pct": 304.92,
+      "preferred_max_dd_pct": 2.94,
+      "preferred_entry_fill_pct": 100.0
+    },
+    {
+      "symbol": "SOL-USDT",
+      "bars": 4380,
+      "start_iso_utc": "2024-04-21T08:00:00+00:00",
+      "end_iso_utc": "2026-04-21T04:00:00+00:00",
+      "preferred_method": "grid",
+      "preferred_return_pct": 269.44,
+      "preferred_max_dd_pct": 0.0,
+      "preferred_entry_fill_pct": 100.0
+    },
+    {
+      "symbol": "BNB-USDT",
+      "bars": 4380,
+      "start_iso_utc": "2024-04-21T08:00:00+00:00",
+      "end_iso_utc": "2026-04-21T04:00:00+00:00",
+      "preferred_method": "ga",
+      "preferred_return_pct": 178.33,
+      "preferred_max_dd_pct": 0.0,
+      "preferred_entry_fill_pct": 100.0
+    },
+    {
+      "symbol": "BTC-USDT",
+      "bars": 4380,
+      "start_iso_utc": "2024-04-21T08:00:00+00:00",
+      "end_iso_utc": "2026-04-21T04:00:00+00:00",
+      "preferred_method": "ga",
+      "preferred_return_pct": 117.09,
+      "preferred_max_dd_pct": 0.0,
+      "preferred_entry_fill_pct": 100.0
+    }
+  ]
+}

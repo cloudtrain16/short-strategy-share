@@ -1,0 +1,7 @@
+symbol,baseline_pref_method,baseline_pref_return_pct,baseline_pref_dd_pct,baseline_pref_fill_pct,baseline_pref_trades,gp_return_pct,gp_dd_pct,gp_fill_pct,gp_trades,highcost_pref_method,highcost_pref_return_pct,highcost_pref_dd_pct,highcost_pref_fill_pct,highcost_pref_trades,ultra_pref_method,ultra_pref_return_pct,ultra_pref_dd_pct,ultra_pref_fill_pct,ultra_pref_trades,positive_scenarios_4,tradeable_scenarios_4
+BTC-USDT,grid,3.7,7.83,58.33,8,17.8,5.31,73.33,24,grid,2.92,8.02,58.33,8,ga,3.28,8.11,50.0,7,4,4
+ETH-USDT,ga,11.0,12.16,58.33,7,3.21,3.12,58.33,13,ga,10.9,6.63,50.0,6,grid,7.67,6.69,50.0,6,4,4
+SOL-USDT,grid,3.94,17.4,45.83,7,6.89,2.64,23.09,8,grid,3.25,17.66,45.83,7,ga,0.0,0.0,0.0,0,3,3
+BNB-USDT,ga,0.0,0.0,0.0,0,0.0,0.0,0.0,0,ga,0.0,0.0,0.0,0,ga,0.0,0.0,0.0,0,0,0
+STRK-USDT,grid,0.0,0.0,0.0,0,0.0,0.0,0.0,0,grid,0.0,0.0,0.0,0,grid,0.0,0.0,0.0,0,0,0
+UNI-USDT,grid,0.0,0.0,0.0,0,0.0,0.0,0.0,0,grid,0.0,0.0,0.0,0,grid,0.0,0.0,0.0,0,0,0

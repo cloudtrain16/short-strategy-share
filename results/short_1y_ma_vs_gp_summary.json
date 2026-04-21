@@ -1,0 +1,72 @@
+{
+  "ma_avg_return_pct": 3.64,
+  "ma_avg_dd_pct": 7.58,
+  "ma_avg_fill_pct": 34.84,
+  "ma_positive_symbols": 3,
+  "gp_avg_return_pct": 6.47,
+  "gp_avg_dd_pct": 1.79,
+  "gp_avg_fill_pct": 33.07,
+  "gp_positive_symbols": 3,
+  "rows": [
+    {
+      "symbol": "BNB-USDT",
+      "ma_return_pct": 7.69,
+      "ma_dd_pct": 3.79,
+      "ma_fill_pct": 16.67,
+      "gp_return_pct": 2.18,
+      "gp_dd_pct": 0.0,
+      "gp_fill_pct": 16.67,
+      "gp_minus_ma_return_pct": -5.51
+    },
+    {
+      "symbol": "BTC-USDT",
+      "ma_return_pct": 9.07,
+      "ma_dd_pct": 7.24,
+      "ma_fill_pct": 83.33,
+      "gp_return_pct": 22.14,
+      "gp_dd_pct": 1.99,
+      "gp_fill_pct": 77.78,
+      "gp_minus_ma_return_pct": 13.07
+    },
+    {
+      "symbol": "ETH-USDT",
+      "ma_return_pct": 11.35,
+      "ma_dd_pct": 11.49,
+      "ma_fill_pct": 66.67,
+      "gp_return_pct": -4.19,
+      "gp_dd_pct": 8.73,
+      "gp_fill_pct": 60.0,
+      "gp_minus_ma_return_pct": -15.54
+    },
+    {
+      "symbol": "SOL-USDT",
+      "ma_return_pct": -6.3,
+      "ma_dd_pct": 22.98,
+      "ma_fill_pct": 42.38,
+      "gp_return_pct": 18.67,
+      "gp_dd_pct": 0.0,
+      "gp_fill_pct": 43.98,
+      "gp_minus_ma_return_pct": 24.97
+    },
+    {
+      "symbol": "STRK-USDT",
+      "ma_return_pct": 0.0,
+      "ma_dd_pct": 0.0,
+      "ma_fill_pct": 0.0,
+      "gp_return_pct": 0.0,
+      "gp_dd_pct": 0.0,
+      "gp_fill_pct": 0.0,
+      "gp_minus_ma_return_pct": 0.0
+    },
+    {
+      "symbol": "UNI-USDT",
+      "ma_return_pct": 0.0,
+      "ma_dd_pct": 0.0,
+      "ma_fill_pct": 0.0,
+      "gp_return_pct": 0.0,
+      "gp_dd_pct": 0.0,
+      "gp_fill_pct": 0.0,
+      "gp_minus_ma_return_pct": 0.0
+    }
+  ]
+}

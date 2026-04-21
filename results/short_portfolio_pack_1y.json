@@ -1,0 +1,140 @@
+{
+  "generated_at_utc": "2026-04-21T11:56:54.031063+00:00",
+  "model_scope": "short_only_after_bear_start",
+  "data_scope": {
+    "timeframe": "4H",
+    "window": "recent_1y",
+    "symbols_input": [
+      "BTC-USDT",
+      "ETH-USDT",
+      "SOL-USDT",
+      "BNB-USDT",
+      "UNI-USDT",
+      "STRK-USDT"
+    ],
+    "bear_start_utc": "2025-10-01"
+  },
+  "portfolio": {
+    "capital_usd": 100000.0,
+    "max_gross_exposure": 1.0,
+    "leverage": 1.0,
+    "max_symbol_weight": 0.5,
+    "selected_symbol_count": 3,
+    "selected_symbols": [
+      "BTC-USDT",
+      "ETH-USDT",
+      "SOL-USDT"
+    ],
+    "weights": {
+      "BTC-USDT": 0.366359,
+      "ETH-USDT": 0.5,
+      "SOL-USDT": 0.133641
+    }
+  },
+  "execution_and_risk": {
+    "entry_order_type": "limit",
+    "exit_order_type": "market",
+    "maker_fee_bps": 5.0,
+    "taker_fee_bps": 7.0,
+    "market_slippage_bps": 4.0,
+    "half_spread_bps": 2.0,
+    "limit_offset_bps": 8.0,
+    "limit_slippage_bps": 0.5,
+    "limit_ttl_bars": 2,
+    "limit_fill_model": "probabilistic",
+    "queue_bps": 8.0,
+    "limit_fallback_market": false,
+    "stop_loss_pct": 30.0,
+    "take_profit_pct": 10.0,
+    "max_participation_rate": 0.001,
+    "min_capacity_ratio": 1.0,
+    "funding_bps_per_8h": 1.0,
+    "daily_loss_limit_pct": 4.0,
+    "portfolio_kill_switch_dd_pct": 15.0,
+    "max_concurrent_positions": 2
+  },
+  "symbols": [
+    {
+      "symbol": "BTC-USDT",
+      "method": "grid",
+      "scenario_returns_pct": {
+        "baseline": 3.7,
+        "gp": 17.8,
+        "funding1bps": 3.11,
+        "highcost": 2.92,
+        "ultra": 3.28
+      },
+      "scenario_median_return_pct": 3.28,
+      "scenario_median_dd_pct": 7.99,
+      "tradeable_scenarios_5": 5,
+      "frozen_params_from_wf_median": {
+        "best_ma_fast": 7.0,
+        "best_ma_mid": 20.0,
+        "best_ma_slow": 52.0,
+        "best_rsi_short": 58.0,
+        "best_rsi_cover": 38.0,
+        "best_vol_min_pct": 0.4,
+        "best_max_hold_bars": 24.0
+      },
+      "target_weight": 0.366359,
+      "capital_usd": 36635.9
+    },
+    {
+      "symbol": "ETH-USDT",
+      "method": "ga",
+      "scenario_returns_pct": {
+        "baseline": 11.0,
+        "gp": 3.21,
+        "funding1bps": 10.02,
+        "highcost": 10.9,
+        "ultra": 7.67
+      },
+      "scenario_median_return_pct": 10.02,
+      "scenario_median_dd_pct": 6.69,
+      "tradeable_scenarios_5": 5,
+      "frozen_params_from_wf_median": {
+        "best_ma_fast": 10.0,
+        "best_ma_mid": 25.0,
+        "best_ma_slow": 60.0,
+        "best_rsi_short": 62.0,
+        "best_rsi_cover": 42.0,
+        "best_vol_min_pct": 0.8,
+        "best_max_hold_bars": 24.0
+      },
+      "target_weight": 0.5,
+      "capital_usd": 50000.0
+    },
+    {
+      "symbol": "SOL-USDT",
+      "method": "grid",
+      "scenario_returns_pct": {
+        "baseline": 3.94,
+        "gp": 6.89,
+        "funding1bps": 2.75,
+        "highcost": 3.25,
+        "ultra": 0.0
+      },
+      "scenario_median_return_pct": 3.25,
+      "scenario_median_dd_pct": 17.4,
+      "tradeable_scenarios_5": 4,
+      "frozen_params_from_wf_median": {
+        "best_ma_fast": 7.0,
+        "best_ma_mid": 20.0,
+        "best_ma_slow": 52.0,
+        "best_rsi_short": 58.0,
+        "best_rsi_cover": 38.0,
+        "best_vol_min_pct": 0.4,
+        "best_max_hold_bars": 36.0
+      },
+      "target_weight": 0.133641,
+      "capital_usd": 13364.1
+    }
+  ],
+  "source_files": {
+    "robustness_matrix": "/Users/shuaiyuan/Documents/Playground/quant_outputs/strict_mvp/results/short_1y_robustness_matrix_5scenarios.csv",
+    "base_summary": "/Users/shuaiyuan/Documents/Playground/quant_outputs/strict_mvp/results/short_ma_filters_1y_wf12/multi_symbol_summary.csv",
+    "funding_summary": "/Users/shuaiyuan/Documents/Playground/quant_outputs/strict_mvp/results/short_ma_filters_1y_wf12_funding1bps/multi_symbol_summary.csv",
+    "highcost_summary": "/Users/shuaiyuan/Documents/Playground/quant_outputs/strict_mvp/results/short_ma_filters_1y_wf12_stress_highcost/multi_symbol_summary.csv",
+    "ultra_summary": "/Users/shuaiyuan/Documents/Playground/quant_outputs/strict_mvp/results/short_ma_filters_1y_wf12_stress_ultra/multi_symbol_summary.csv"
+  }
+}

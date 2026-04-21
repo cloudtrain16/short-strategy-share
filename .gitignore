@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*api_key*
+*apikey*
+*secret*
+
+# Large data artifacts
+*.pkl
+*.pickle
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store

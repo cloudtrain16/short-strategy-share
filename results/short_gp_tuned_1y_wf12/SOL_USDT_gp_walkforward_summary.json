@@ -1,0 +1,10 @@
+{
+  "folds": 12,
+  "oos_return_pct": 6.89,
+  "oos_max_dd_pct": 2.64,
+  "oos_trades": 8,
+  "oos_win_rate": 62.5,
+  "oos_avg_entry_fill_rate": 23.09,
+  "oos_total_cap_reject_entries": 22,
+  "oos_equity_multiple": 1.068947
+}

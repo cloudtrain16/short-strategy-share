@@ -1,0 +1,14 @@
+{
+  "method": "grid",
+  "folds": 4,
+  "train_bars": 500,
+  "test_bars": 200,
+  "oos_return_pct": 12.57,
+  "oos_max_dd_pct": 2.27,
+  "oos_trades": 11,
+  "oos_win_rate": 45.45,
+  "oos_avg_entry_fill_rate": 68.75,
+  "oos_avg_exit_fill_rate": 52.5,
+  "oos_total_limit_expired": 18,
+  "oos_equity_multiple": 1.12565
+}

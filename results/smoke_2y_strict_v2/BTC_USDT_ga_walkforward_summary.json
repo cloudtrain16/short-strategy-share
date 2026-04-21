@@ -1,0 +1,16 @@
+{
+  "method": "ga",
+  "folds": 3,
+  "train_bars": 240,
+  "test_bars": 120,
+  "oos_return_pct": 7.64,
+  "oos_max_dd_pct": 6.62,
+  "oos_trades": 7,
+  "oos_win_rate": 42.85,
+  "oos_avg_entry_fill_rate": 53.33,
+  "oos_avg_exit_fill_rate": 116.67,
+  "oos_total_limit_expired": 6,
+  "oos_total_capacity_reject_entries": 1,
+  "oos_total_capacity_reject_exits": 0,
+  "oos_equity_multiple": 1.076359
+}

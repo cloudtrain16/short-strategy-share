@@ -1,0 +1,63 @@
+{
+  "symbols": 6,
+  "avg_ret_pct": 72.27,
+  "avg_dd_pct": 19.41,
+  "avg_entry_fill_pct": 34.82,
+  "positive_symbols": 4,
+  "rows": [
+    {
+      "symbol": "ETH-USDT",
+      "preferred": "ga",
+      "ret_pct": 210.53,
+      "dd_pct": 20.58,
+      "entry_fill_pct": 87.19,
+      "cap_reject_entries": 2,
+      "cap_reject_exits": 7
+    },
+    {
+      "symbol": "BTC-USDT",
+      "preferred": "ga",
+      "ret_pct": 142.23,
+      "dd_pct": 7.95,
+      "entry_fill_pct": 78.77,
+      "cap_reject_entries": 2,
+      "cap_reject_exits": 0
+    },
+    {
+      "symbol": "SOL-USDT",
+      "preferred": "grid",
+      "ret_pct": 89.01,
+      "dd_pct": 29.47,
+      "entry_fill_pct": 37.7,
+      "cap_reject_entries": 84,
+      "cap_reject_exits": 93
+    },
+    {
+      "symbol": "BNB-USDT",
+      "preferred": "ga",
+      "ret_pct": 9.26,
+      "dd_pct": 21.86,
+      "entry_fill_pct": 4.81,
+      "cap_reject_entries": 260,
+      "cap_reject_exits": 281
+    },
+    {
+      "symbol": "STRK-USDT",
+      "preferred": "grid",
+      "ret_pct": 0.0,
+      "dd_pct": 0.0,
+      "entry_fill_pct": 0.0,
+      "cap_reject_entries": 491,
+      "cap_reject_exits": 0
+    },
+    {
+      "symbol": "UNI-USDT",
+      "preferred": "ga",
+      "ret_pct": -17.38,
+      "dd_pct": 36.62,
+      "entry_fill_pct": 0.47,
+      "cap_reject_entries": 296,
+      "cap_reject_exits": 64
+    }
+  ]
+}

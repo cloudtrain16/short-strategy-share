@@ -1,0 +1,7 @@
+symbol,data_source,bars,start_ts,end_ts,start_iso_utc,end_iso_utc,bear_start_utc,wf_folds,wf_grid_oos_return_pct,wf_grid_oos_max_dd_pct,wf_grid_oos_trades,wf_grid_oos_win_rate,wf_grid_oos_avg_entry_fill_rate,wf_grid_oos_total_capacity_reject_entries,wf_grid_oos_total_capacity_reject_exits,wf_ga_oos_return_pct,wf_ga_oos_max_dd_pct,wf_ga_oos_trades,wf_ga_oos_win_rate,wf_ga_oos_avg_entry_fill_rate,wf_ga_oos_total_capacity_reject_entries,wf_ga_oos_total_capacity_reject_exits,wf_ga_minus_grid_return_pct,preferred_method
+ETH-USDT,binance,2190,1745236800000,1776758400000,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,7.67,6.69,6,50.0,50.0,6,7,3.08,6.69,4,25.0,33.33,5,2,-4.59,grid
+SOL-USDT,binance,2190,1745236800000,1776758400000,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,3.73,6.61,1,100.0,1.04,25,2,0.0,0.0,0,0.0,0.0,21,0,-3.73,ga
+BTC-USDT,binance,2190,1745236800000,1776758400000,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,2.6,8.72,6,66.67,41.67,0,10,3.28,8.11,7,71.43,50.0,0,10,0.68,ga
+BNB-USDT,binance,2190,1745236800000,1776758400000,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,1.66,9.53,1,100.0,8.33,18,0,0.0,0.0,0,0.0,0.0,18,0,-1.66,ga
+STRK-USDT,binance,2190,1745236800000,1776758400000,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,0.0,0.0,0,0.0,0.0,29,0,0.0,0.0,0,0.0,0.0,27,0,0.0,grid
+UNI-USDT,binance,2190,1745236800000,1776758400000,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,0.0,0.0,0,0.0,0.0,33,0,0.0,0.0,0,0.0,0.0,28,0,0.0,grid

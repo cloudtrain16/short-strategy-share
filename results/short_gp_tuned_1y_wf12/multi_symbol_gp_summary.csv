@@ -1,0 +1,7 @@
+symbol,bars,start_iso_utc,end_iso_utc,bear_start_utc,wf_folds,gp_oos_return_pct,gp_oos_max_dd_pct,gp_oos_trades,gp_oos_win_rate,gp_oos_avg_entry_fill_rate,gp_oos_total_cap_reject_entries,gp_best_expr
+BTC-USDT,2190,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,17.8,5.31,24,83.33,73.33,1,((-1.00 add dist_ma20_x50) div 2.00)
+SOL-USDT,2190,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,6.89,2.64,8,62.5,23.09,22,(tanh((((ret1_x50 sub (-0.50 add -1.00)) max dist_ma7_x50) mul dist_ma7_x50)) sub trend_gap_x30)
+ETH-USDT,2190,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,3.21,3.12,13,46.15,58.33,0,(tanh(regime_flag) add ((-0.50 div dist_ma52_x50) div dist_ma52_x50))
+BNB-USDT,2190,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,0.0,0.0,0,0.0,0.0,21,(dist_ma52_x50 add (-1.00 add -2.00))
+UNI-USDT,2190,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,0.0,0.0,0,0.0,0.0,78,(dist_ma20_x50 max ret1_x50)
+STRK-USDT,2190,2025-04-21T12:00:00+00:00,2026-04-21T08:00:00+00:00,2025-10-01,12,0.0,0.0,0,0.0,0.0,47,(abs(0.50) add (-2.00 max ((0.50 mul 0.50) div dist_ma20_x50)))

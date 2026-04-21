@@ -1,0 +1,7 @@
+symbol,ma_oos_return_pct,ma_post_bear_return_pct,ma_dd_pct,ma_fill_pct,ma_stability_score,ma_quality_score,gp_oos_return_pct,gp_post_bear_return_pct,gp_dd_pct,gp_fill_pct,gp_stability_score,gp_quality_score,recommended,recommended_quality_score
+BNB-USDT,0.0,0.0,0.0,0.0,48.0,4.8,0.0,0.0,0.0,0.0,62.69,6.27,gp,6.27
+BTC-USDT,3.7,3.71,7.83,58.33,51.42,5.5,17.8,17.79,5.31,73.33,54.77,22.69,gp,22.69
+ETH-USDT,11.0,10.99,12.16,58.33,43.11,8.49,3.21,3.21,3.12,58.33,57.83,9.41,gp,9.41
+SOL-USDT,3.94,3.93,17.4,45.83,55.0,-2.2,6.89,6.91,2.64,23.09,58.51,11.8,gp,11.8
+STRK-USDT,0.0,0.0,0.0,0.0,100.0,10.0,0.0,0.0,0.0,0.0,63.78,6.38,ma,10.0
+UNI-USDT,0.0,0.0,0.0,0.0,100.0,10.0,0.0,0.0,0.0,0.0,63.2,6.32,ma,10.0

@@ -1,0 +1,29 @@
+{
+  "symbol": "BTC-USDT",
+  "bar": "4H",
+  "bars": 2190,
+  "start_iso_utc": "2025-04-21T12:00:00+00:00",
+  "end_iso_utc": "2026-04-21T08:00:00+00:00",
+  "bear_start_utc": "2025-10-01",
+  "feature_names": [
+    "dist_ma7_x50",
+    "dist_ma20_x50",
+    "dist_ma52_x50",
+    "rsi_n_x4",
+    "vol20_x20",
+    "trend_gap_x30",
+    "ret1_x50",
+    "regime_flag"
+  ],
+  "best_expression": "((-1.00 add dist_ma20_x50) div 2.00)",
+  "metrics": {
+    "return_pct": 16.9,
+    "max_dd_pct": 2.59,
+    "trades": 9,
+    "win_rate": 88.89,
+    "entry_fill_rate": 100.0,
+    "cap_reject_entries": 0,
+    "score": 13.8,
+    "equity_multiple": 1.1690499700454107
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fast": 5,
+  "slow": 20,
+  "rsi_buy": 52,
+  "rsi_sell": 48,
+  "entry_signals": 14,
+  "exit_signals": 13,
+  "entries": 14,
+  "trades": 14,
+  "wins": 9,
+  "win_rate": 64.29,
+  "entry_fill_rate": 100.0,
+  "exit_fill_rate": 107.69,
+  "maker_fills": 9,
+  "taker_fills": 19,
+  "limit_expired": 0,
+  "missed_entries": 0,
+  "missed_exits": 0,
+  "return_pct": 17.75,
+  "max_dd_pct": 6.53,
+  "score": 10.3,
+  "equity_multiple": 1.1775074125931393
+}

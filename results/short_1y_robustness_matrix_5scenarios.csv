@@ -1,0 +1,7 @@
+symbol,baseline_ret,gp_ret,funding1bps_ret,highcost_ret,ultra_ret,baseline_dd,gp_dd,funding1bps_dd,highcost_dd,ultra_dd,positive_scenarios_5,tradeable_scenarios_5
+BTC-USDT,3.7,17.8,3.11,2.92,3.28,7.83,5.31,7.99,8.02,8.11,5,5
+ETH-USDT,11.0,3.21,10.02,10.9,7.67,12.16,3.12,12.29,6.63,6.69,5,5
+SOL-USDT,3.94,6.89,2.75,3.25,0.0,17.4,2.64,17.81,17.66,0.0,4,4
+BNB-USDT,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+STRK-USDT,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+UNI-USDT,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0

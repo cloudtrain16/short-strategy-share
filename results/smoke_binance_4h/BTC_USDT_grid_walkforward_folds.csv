@@ -1,0 +1,4 @@
+fold,train_start_ts,train_end_ts,test_start_ts,test_end_ts,best_fast,best_slow,best_rsi_buy,best_rsi_sell,train_score,train_return_pct,test_return_pct,test_max_dd_pct,test_trades,test_win_rate,test_entry_fill_rate,test_exit_fill_rate,test_limit_expired,oos_equity_after_fold
+0,1769558400000,1772424000000,1772438400000,1773576000000,12,50,55,48,0.33,0.33,-3.4,6.52,2,50.0,100.0,200.0,0,0.965985
+1,1770710400000,1773576000000,1773590400000,1774728000000,5,20,55,48,-1.68,4.9,-4.63,4.75,3,0.0,100.0,100.0,0,0.921214
+2,1771862400000,1774728000000,1774742400000,1775880000000,15,60,52,48,-0.3,7.81,4.43,2.79,2,50.0,100.0,200.0,0,0.962043
