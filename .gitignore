@@ -21,3 +21,6 @@ venv/
 
 # OS / editor
 .DS_Store
+
+# Local transfer inbox (not for git history by default)
+shared_drop/
